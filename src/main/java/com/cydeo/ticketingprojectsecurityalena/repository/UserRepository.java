@@ -1,6 +1,6 @@
 package com.cydeo.ticketingprojectsecurityalena.repository;
 
-import com.cydeo.entity.User;
+import com.cydeo.ticketingprojectsecurityalena.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import javax.transaction.Transactional;

@@ -1,15 +1,16 @@
 package com.cydeo.ticketingprojectsecurityalena.service.impl;
 
-import com.cydeo.dto.ProjectDTO;
-import com.cydeo.dto.TaskDTO;
-import com.cydeo.dto.UserDTO;
-import com.cydeo.entity.User;
-import com.cydeo.mapper.UserMapper;
-import com.cydeo.repository.UserRepository;
-import com.cydeo.service.ProjectService;
-import com.cydeo.service.TaskService;
-import com.cydeo.service.UserService;
+import com.cydeo.ticketingprojectsecurityalena.dto.ProjectDTO;
+import com.cydeo.ticketingprojectsecurityalena.dto.TaskDTO;
+import com.cydeo.ticketingprojectsecurityalena.dto.UserDTO;
+import com.cydeo.ticketingprojectsecurityalena.entity.User;
+import com.cydeo.ticketingprojectsecurityalena.mapper.UserMapper;
+import com.cydeo.ticketingprojectsecurityalena.repository.UserRepository;
+import com.cydeo.ticketingprojectsecurityalena.service.ProjectService;
+import com.cydeo.ticketingprojectsecurityalena.service.TaskService;
+import com.cydeo.ticketingprojectsecurityalena.service.UserService;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -22,12 +23,14 @@ public class UserServiceImpl implements UserService {
     private final UserMapper userMapper;
     private final ProjectService projectService;
     private final TaskService taskService;
+    private final PasswordEncoder passwordEncoder;
 
-    public UserServiceImpl(UserRepository userRepository, UserMapper userMapper, @Lazy ProjectService projectService, @Lazy TaskService taskService) {
+    public UserServiceImpl(UserRepository userRepository, UserMapper userMapper, @Lazy ProjectService projectService, @Lazy TaskService taskService, PasswordEncoder passwordEncoder) {
         this.userRepository = userRepository;
         this.userMapper = userMapper;
         this.projectService = projectService;
         this.taskService = taskService;
+        this.passwordEncoder = passwordEncoder;
     }
 
     @Override
@@ -44,7 +47,14 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void save(UserDTO user) {
-        userRepository.save(userMapper.convertToEntity(user));
+
+        user.setEnabled(true);
+
+        User obj=userMapper.convertToEntity(user);
+        obj.setPassWord(passwordEncoder.encode(obj.getPassWord()));
+
+        userRepository.save(obj);
+
     }
 
 //    @Override

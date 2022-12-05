@@ -1,6 +1,6 @@
 package com.cydeo.ticketingprojectsecurityalena.entity;
 
-import com.cydeo.enums.Status;
+import com.cydeo.ticketingprojectsecurityalena.enums.Status;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

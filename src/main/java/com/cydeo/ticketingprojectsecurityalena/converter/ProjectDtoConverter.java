@@ -1,7 +1,7 @@
 package com.cydeo.ticketingprojectsecurityalena.converter;
 
-import com.cydeo.dto.ProjectDTO;
-import com.cydeo.service.ProjectService;
+import com.cydeo.ticketingprojectsecurityalena.dto.ProjectDTO;
+import com.cydeo.ticketingprojectsecurityalena.service.ProjectService;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 

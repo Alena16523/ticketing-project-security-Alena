@@ -1,11 +1,11 @@
 package com.cydeo.ticketingprojectsecurityalena.service.impl;
 
-import com.cydeo.dto.RoleDTO;
-import com.cydeo.entity.Role;
-import com.cydeo.mapper.MapperUtil;
-import com.cydeo.mapper.RoleMapper;
-import com.cydeo.repository.RoleRepository;
-import com.cydeo.service.RoleService;
+import com.cydeo.ticketingprojectsecurityalena.dto.RoleDTO;
+import com.cydeo.ticketingprojectsecurityalena.entity.Role;
+import com.cydeo.ticketingprojectsecurityalena.mapper.MapperUtil;
+import com.cydeo.ticketingprojectsecurityalena.mapper.RoleMapper;
+import com.cydeo.ticketingprojectsecurityalena.repository.RoleRepository;
+import com.cydeo.ticketingprojectsecurityalena.service.RoleService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

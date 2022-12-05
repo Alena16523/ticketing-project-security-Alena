@@ -1,9 +1,9 @@
 package com.cydeo.ticketingprojectsecurityalena.repository;
 
-import com.cydeo.entity.Project;
-import com.cydeo.entity.Task;
-import com.cydeo.entity.User;
-import com.cydeo.enums.Status;
+import com.cydeo.ticketingprojectsecurityalena.entity.Project;
+import com.cydeo.ticketingprojectsecurityalena.entity.Task;
+import com.cydeo.ticketingprojectsecurityalena.entity.User;
+import com.cydeo.ticketingprojectsecurityalena.enums.Status;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

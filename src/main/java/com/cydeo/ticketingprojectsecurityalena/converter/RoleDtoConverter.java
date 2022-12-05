@@ -1,7 +1,7 @@
 package com.cydeo.ticketingprojectsecurityalena.converter;
 
-import com.cydeo.dto.RoleDTO;
-import com.cydeo.service.RoleService;
+import com.cydeo.ticketingprojectsecurityalena.dto.RoleDTO;
+import com.cydeo.ticketingprojectsecurityalena.service.RoleService;
 import org.springframework.boot.context.properties.ConfigurationPropertiesBinding;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.core.convert.converter.Converter;

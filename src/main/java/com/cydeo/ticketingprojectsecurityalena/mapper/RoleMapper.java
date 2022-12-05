@@ -1,7 +1,7 @@
 package com.cydeo.ticketingprojectsecurityalena.mapper;
 
-import com.cydeo.dto.RoleDTO;
-import com.cydeo.entity.Role;
+import com.cydeo.ticketingprojectsecurityalena.dto.RoleDTO;
+import com.cydeo.ticketingprojectsecurityalena.entity.Role;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;
 

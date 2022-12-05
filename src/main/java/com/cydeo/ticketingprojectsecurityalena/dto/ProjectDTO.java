@@ -1,5 +1,5 @@
 package com.cydeo.ticketingprojectsecurityalena.dto;
-import com.cydeo.enums.Status;
+import com.cydeo.ticketingprojectsecurityalena.enums.Status;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

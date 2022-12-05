@@ -1,8 +1,8 @@
 package com.cydeo.ticketingprojectsecurityalena.controller;
 
-import com.cydeo.dto.ProjectDTO;
-import com.cydeo.service.ProjectService;
-import com.cydeo.service.UserService;
+import com.cydeo.ticketingprojectsecurityalena.dto.ProjectDTO;
+import com.cydeo.ticketingprojectsecurityalena.service.ProjectService;
+import com.cydeo.ticketingprojectsecurityalena.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;

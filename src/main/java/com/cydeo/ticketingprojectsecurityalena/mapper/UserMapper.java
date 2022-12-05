@@ -1,7 +1,7 @@
 package com.cydeo.ticketingprojectsecurityalena.mapper;
 
-import com.cydeo.dto.UserDTO;
-import com.cydeo.entity.User;
+import com.cydeo.ticketingprojectsecurityalena.dto.UserDTO;
+import com.cydeo.ticketingprojectsecurityalena.entity.User;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;
 

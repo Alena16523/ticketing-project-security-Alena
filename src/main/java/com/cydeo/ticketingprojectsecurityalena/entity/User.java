@@ -1,6 +1,6 @@
 package com.cydeo.ticketingprojectsecurityalena.entity;
 
-import com.cydeo.enums.Gender;
+import com.cydeo.ticketingprojectsecurityalena.enums.Gender;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

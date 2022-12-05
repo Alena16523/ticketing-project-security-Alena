@@ -1,16 +1,16 @@
 package com.cydeo.ticketingprojectsecurityalena.service.impl;
 
-import com.cydeo.dto.ProjectDTO;
-import com.cydeo.dto.UserDTO;
-import com.cydeo.entity.Project;
-import com.cydeo.entity.User;
-import com.cydeo.enums.Status;
-import com.cydeo.mapper.ProjectMapper;
-import com.cydeo.mapper.UserMapper;
-import com.cydeo.repository.ProjectRepository;
-import com.cydeo.service.ProjectService;
-import com.cydeo.service.TaskService;
-import com.cydeo.service.UserService;
+import com.cydeo.ticketingprojectsecurityalena.dto.ProjectDTO;
+import com.cydeo.ticketingprojectsecurityalena.dto.UserDTO;
+import com.cydeo.ticketingprojectsecurityalena.entity.Project;
+import com.cydeo.ticketingprojectsecurityalena.entity.User;
+import com.cydeo.ticketingprojectsecurityalena.enums.Status;
+import com.cydeo.ticketingprojectsecurityalena.mapper.ProjectMapper;
+import com.cydeo.ticketingprojectsecurityalena.mapper.UserMapper;
+import com.cydeo.ticketingprojectsecurityalena.repository.ProjectRepository;
+import com.cydeo.ticketingprojectsecurityalena.service.ProjectService;
+import com.cydeo.ticketingprojectsecurityalena.service.TaskService;
+import com.cydeo.ticketingprojectsecurityalena.service.UserService;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 

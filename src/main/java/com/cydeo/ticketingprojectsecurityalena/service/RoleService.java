@@ -1,6 +1,6 @@
 package com.cydeo.ticketingprojectsecurityalena.service;
 
-import com.cydeo.dto.RoleDTO;
+import com.cydeo.ticketingprojectsecurityalena.dto.RoleDTO;
 
 import java.util.List;
 

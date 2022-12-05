@@ -1,6 +1,6 @@
 package com.cydeo.ticketingprojectsecurityalena.dto;
 
-import com.cydeo.enums.Gender;
+import com.cydeo.ticketingprojectsecurityalena.enums.Gender;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import lombok.ToString;

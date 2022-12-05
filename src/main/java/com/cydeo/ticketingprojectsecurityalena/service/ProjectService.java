@@ -1,7 +1,7 @@
 package com.cydeo.ticketingprojectsecurityalena.service;
 
-import com.cydeo.dto.ProjectDTO;
-import com.cydeo.dto.UserDTO;
+import com.cydeo.ticketingprojectsecurityalena.dto.ProjectDTO;
+import com.cydeo.ticketingprojectsecurityalena.dto.UserDTO;
 
 import java.util.List;
 
